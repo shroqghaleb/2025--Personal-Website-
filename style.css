@@ -50,6 +50,7 @@ main{
     width: 80%;
     height: 100%;
     margin: 0 auto;
+    min-height: 800px;
    
 
     
@@ -203,5 +204,32 @@ h3{
     line-height: 1.5;
     padding-left: 10px;
     width: 90%;
+}
+
+.form-group{
+    align-items: center;
+    padding-left: 100px;
+    width: 150rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+label{
+   
+   padding-right: 100px;
+   font-size: larger;
+   margin-top: 10px;
+   
+}
+input{
+    width: 50%;
+}
+textarea {
+   
+    width: 50%;
+    height: 100px;s
+}
+.submit-form{
+   padding-left: 100px;
+   
 }
 
